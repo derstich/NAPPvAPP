@@ -1,7 +1,6 @@
 #Hostnames (Server FQDN)
 export k8sm=k8smaster.corp.local
 export k8sn=k8snode.corp.local
-export nfs=nfs-k8s.corp.local
 
 #NFS Information
 #Disk to use
