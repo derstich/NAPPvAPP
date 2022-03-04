@@ -1,0 +1,28 @@
+#Hostnames (Server FQDN)
+export k8sm=k8smaster.corp.local
+export k8sn=k8snode.corp.local
+export nfs=nfs-k8s.corp.local
+
+#NFS Information
+#Disk to use
+export sdx=sdb
+#Folder for NFS
+export nfsfolder=nfs
+export nfssubfolder=k8s
+
+#K8S Information
+export k8sversion=1.21.9-00
+export podnet=172.25.0.0/16
+export pathdevmap=/dev/mapper/ubuntu--vg-ubuntu--lv
+export kubeadmfolder=~/kubeadm
+export k8sconfigfiles=~/k8sconfigfiles
+
+#LB IP Pool
+export ippool=192.168.110.81-192.168.110.90
+
+#NSX Manager Information
+export nsxmanager=192.168.110.7
+export nsxuser=admin
+export nsxpasswd='VMware1!VMware1!'
+export dockerregistry='projects.registry.vmware.com/nsx_application_platform/clustering'
+export helmrepo='https://projects.registry.vmware.com/chartrepo/nsx_application_platform'
